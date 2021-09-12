@@ -23,8 +23,9 @@
           var postData = {
               bcode : data.bcode,
               address : data.address,
-              autoJibunAddress : data.autoJibunAddress
-              
+              autoJibunAddress : data.autoJibunAddress,
+              buildingName : data.buildingName
+            
           };
           window.postMessageToiOS(postData);
         },
